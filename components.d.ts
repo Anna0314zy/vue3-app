@@ -8,8 +8,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    DropdownMenu: typeof import('./src/components/DropdownMenu.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     StaticAsync: typeof import('./src/components/staticAsync.vue')['default']
+    Virtual: typeof import('./src/components/Virtual.vue')['default']
   }
 }

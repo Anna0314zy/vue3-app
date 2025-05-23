@@ -75,6 +75,7 @@ const handleClick = (item: { name: string }) => {
 
 <template>
     <div>
+        <h1>静态资源的动态导入</h1>
         <el-button v-for="item in imageList" :key="item.name" @click="() => handleClick(item)" >切换{{ item.name }}</el-button>
        <div class="img"> <img :src="imageRef" /></div>
     </div>
