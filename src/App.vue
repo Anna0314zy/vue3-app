@@ -1,6 +1,5 @@
 <script setup lang="ts">
-  import staticAsync from './components/staticAsync.vue';
-import DropdownMenu from './components/DropdownMenu.vue';
+import staticAsync from './components/staticAsync.vue';
 import Virtual from './components/Virtual.vue';
 </script>
 
@@ -10,7 +9,7 @@ import Virtual from './components/Virtual.vue';
     <Virtual/>
 </template>
 
-<style scoped>
+<style>
 .logo {
   height: 6em;
   padding: 1.5em;

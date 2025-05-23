@@ -13,5 +13,6 @@ declare module 'vue' {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     StaticAsync: typeof import('./src/components/staticAsync.vue')['default']
     Virtual: typeof import('./src/components/Virtual.vue')['default']
+    WebSocket: typeof import('./src/components/WebSocket.vue')['default']
   }
 }
