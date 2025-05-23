@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import staticAsync from './components/staticAsync.vue';
+import WebSocket from './comp'
 </script>
 
 <template>
@@ -12,11 +13,14 @@ import staticAsync from './components/staticAsync.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
   <HelloWorld msg="Vite + Vue" />
   <staticAsync />
 </template>
 
-<style scoped>
+<style>
 .logo {
   height: 6em;
   padding: 1.5em;
